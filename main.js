@@ -1,5 +1,5 @@
 function fibonacci(i){
-    if(i==1 | i==0){
+    if(i==1 || i==0){ // el "or" en js es con || no con |
         return i;
     }
     else{
